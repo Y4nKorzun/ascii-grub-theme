@@ -13,33 +13,53 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + label {
-  font = "JetBrainsMono NFM Bold 20"
-  left = 6%
-  top = 64
-  width = 88%
-  align = "left"
-  color = "#F5F5F5"
-  text = "+-- ascii grub ------------------------------------------------------+"
-}
-
-+ label {
   font = "JetBrainsMono NFM Regular 16"
   left = 6%
-  top = 98
-  width = 88%
-  align = "left"
-  color = "#B8B8B8"
-  text = "| boot selector // monochrome terminal interface                    |"
-}
-
-+ label {
-  font = "JetBrainsMono NFM Regular 16"
-  left = 6%
-  top = 124
+  top = 7%
   width = 88%
   align = "left"
   color = "#6F6F6F"
-  text = "+-------------------------------------------------------------------+"
+  text = "        .------------------------------------------------------------."
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 10%
+  width = 88%
+  align = "left"
+  color = "#8D8D8D"
+  text = "       /  AAAAA   SSSSS   CCCCC  IIIII  IIIII       GRUB TTY       /|"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 13%
+  width = 88%
+  align = "left"
+  color = "#B8B8B8"
+  text = "      /  AA   AA SS      CC       III    III       monochrome      / |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 16%
+  width = 88%
+  align = "left"
+  color = "#F5F5F5"
+  text = "     /   AAAAAAA  SSSSS  CC       III    III        boot art      /  |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 19%
+  width = 88%
+  align = "left"
+  color = "#B8B8B8"
+  text = "    /    AA   AA      SS CC       III    III                     /   |"
 }
 
 + label {
@@ -49,14 +69,54 @@ terminal-border: "0"
   width = 88%
   align = "left"
   color = "#8D8D8D"
-  text = "$ select kernel"
+  text = "   /     AA   AA SSSSS   CCCCC  IIIII  IIIII                   /    |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 25%
+  width = 88%
+  align = "left"
+  color = "#6F6F6F"
+  text = "  '------------------------------------------------------------'     |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 28%
+  width = 88%
+  align = "left"
+  color = "#4F4F4F"
+  text = "  |   [*] kernel uplink     [*] initrd vector     [*] quiet mode     |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 31%
+  width = 88%
+  align = "left"
+  color = "#3D3D3D"
+  text = "  '------------------------------------------------------------------'"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 36%
+  width = 88%
+  align = "left"
+  color = "#8D8D8D"
+  text = "$ select boot target"
 }
 
 + boot_menu {
   left = 6%
-  top = 28%
+  top = 41%
   width = 88%
-  height = 42%
+  height = 29%
   item_font = "JetBrainsMono NFM Regular 20"
   selected_item_font = "JetBrainsMono NFM Bold 20"
   item_color = "#8A8A8A"
