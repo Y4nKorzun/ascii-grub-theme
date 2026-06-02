@@ -26,6 +26,9 @@ up `/etc/default/grub` and `/boot/grub/grub.cfg`, updates only `GRUB_THEME`,
 generates a test config, validates it with `grub-script-check`, then writes the
 real `/boot/grub/grub.cfg`.
 
+On success it prints a rollback command for later use. That command is not run
+automatically.
+
 ## Rollback
 
 After install, rollback restores the latest saved `/etc/default/grub` and

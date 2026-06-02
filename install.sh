@@ -292,4 +292,5 @@ trap - EXIT
 cleanup
 
 log "install complete"
-log "rollback: sudo ${script_dir}/install.sh --rollback"
+log "rollback was NOT run"
+log "to undo this install later, run: sudo ${script_dir}/install.sh --rollback"
