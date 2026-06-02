@@ -1,0 +1,103 @@
+# ASCII GRUB theme
+
+title-text: ""
+desktop-color: "#050505"
+message-font: "JetBrainsMono NFM Regular 16"
+message-color: "#E6E6E6"
+message-bg-color: "#050505"
+terminal-font: "JetBrainsMono NFM Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ label {
+  font = "JetBrainsMono NFM Bold 20"
+  left = 6%
+  top = 64
+  width = 88%
+  align = "left"
+  color = "#F5F5F5"
+  text = "+-- ascii grub ------------------------------------------------------+"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 98
+  width = 88%
+  align = "left"
+  color = "#B8B8B8"
+  text = "| boot selector // monochrome terminal interface                    |"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 124
+  width = 88%
+  align = "left"
+  color = "#6F6F6F"
+  text = "+-------------------------------------------------------------------+"
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 22%
+  width = 88%
+  align = "left"
+  color = "#8D8D8D"
+  text = "$ select kernel"
+}
+
++ boot_menu {
+  left = 6%
+  top = 28%
+  width = 88%
+  height = 42%
+  item_font = "JetBrainsMono NFM Regular 20"
+  selected_item_font = "JetBrainsMono NFM Bold 20"
+  item_color = "#8A8A8A"
+  selected_item_color = "#FFFFFF"
+  item_height = 34
+  item_padding = 0
+  item_spacing = 4
+  item_icon_space = 0
+  scrollbar = true
+  scrollbar_width = 0
+}
+
++ label {
+  id = "__timeout__"
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 78%
+  width = 88%
+  align = "left"
+  color = "#B8B8B8"
+  text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 6%
+  top = 82%
+  width = 88%
+  height = 2
+  fg_color = "#F5F5F5"
+  bg_color = "#1B1B1B"
+  border_color = "#1B1B1B"
+  text = ""
+}
+
++ label {
+  font = "JetBrainsMono NFM Regular 16"
+  left = 6%
+  top = 90%
+  width = 88%
+  align = "left"
+  color = "#6F6F6F"
+  text = "[up/down] navigate   [enter] boot   [e] edit   [c] command"
+}
