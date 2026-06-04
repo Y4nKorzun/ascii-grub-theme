@@ -10,14 +10,14 @@ white selection text, and no external brand assets.
 Preview the actions first:
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Y4nKorzun/ascii-grub-theme.git /tmp/ascii-grub-theme
+git clone --depth 1 --branch v0.2.0 https://github.com/Y4nKorzun/ascii-grub-theme.git /tmp/ascii-grub-theme
 /tmp/ascii-grub-theme/install.sh --dry-run
 ```
 
 Install and regenerate GRUB:
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Y4nKorzun/ascii-grub-theme.git /tmp/ascii-grub-theme
+git clone --depth 1 --branch v0.2.0 https://github.com/Y4nKorzun/ascii-grub-theme.git /tmp/ascii-grub-theme
 /tmp/ascii-grub-theme/install.sh --yes
 ```
 
